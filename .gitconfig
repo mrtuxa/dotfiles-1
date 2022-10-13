@@ -1,0 +1,21 @@
+[core]
+    pager = delta
+[delta]
+    line-numbers = true
+    side-by-side = true
+[credential]
+	helper = store
+[user]
+	name = Jxstxs
+	email = juleb0202@gmail.com
+[merge]
+    conflictstyle = diff3
+[pull]
+	rebase = false
+[init]
+	defaultBranch = master
+[filter "lfs"]
+	clean = git-lfs clean -- %f
+	smudge = git-lfs smudge -- %f
+	process = git-lfs filter-process
+	required = true
