@@ -1,0 +1,33 @@
+# Numbers in "upper" Homerow
+<Multi_key> <q>		: "1"	1
+<Multi_key> <w>		: "2"	2
+<Multi_key> <e>		: "3"	3
+<Multi_key> <r>		: "4"	4
+<Multi_key> <t>		: "5"	5
+<Multi_key> <z>		: "6"	6
+<Multi_key> <u>		: "7"	7
+<Multi_key> <i>		: "8"	8
+<Multi_key> <o>		: "9"	9
+<Multi_key> <p>		: "0"	0
+
+# Extra Stuff in "upper" Homerow
+<Multi_key> <Q>		: "!"	numbersign
+<Multi_key> <W>		: "\""	numbersign
+<Multi_key> <E>		: "§"	numbersign
+<Multi_key> <R>		: "$"	numbersign
+<Multi_key> <T>		: "%"	numbersign
+<Multi_key> <Z>		: "&"	numbersign
+<Multi_key> <U>		: "/"	numbersign
+#<Multi_key> <I>		: "#"	numbersign # NUMBER SIGN
+#<Multi_key> <O>		: "#"	numbersign # NUMBER SIGN
+<Multi_key> <P>		: "="	numbersign
+
+# Vim Movement in Homerow
+<Multi_key> <h>		: "["	numbersign
+<Multi_key> <j>		: "{"	numbersign
+<Multi_key> <k>		: "}"	numbersign
+<Multi_key> <l>		: "]"	numbersign
+
+<Multi_key> <J>		: "("	numbersign
+<Multi_key> <K>		: ")"	numbersign
+
