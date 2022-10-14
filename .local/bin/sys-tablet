@@ -1,0 +1,34 @@
+#!/bin/sh
+
+xmenu <<EOF | sh &
+Rotate
+	Normal	screen-rotate normal
+	Right	screen-rotate right
+	Left	screen-rotate left
+	Inverted	screen-rotate inverted
+Onboard
+	Start	onboard
+	Stop	pkill onboard
+
+Taskmanager
+	Btop	st btop
+	Gtop	st gtop
+	Htop	st htop
+	Top	st top
+
+Brightness
+	Plus	brightnessctl s 10+
+	Minus	brightnessctl s 10-
+	Max	brightnessctl s 100%
+	Low	brightnessctl s 0%
+Sound
+	Plus	pulsemixer --id sink-58 --change-volume +5
+	Minus	pulsemixer --id sink-58 --change-volume -5
+	Toggle Mute	pulsemixer --id source-59 --toggle-mute
+
+Hibernate	systemctl hibernate
+Power
+	Suspend	systemctl suspend
+	Shutdown	systemctl poweroff
+	Reboot	systemctl reboot
+EOF
