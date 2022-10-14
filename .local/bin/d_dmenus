@@ -1,0 +1,15 @@
+#! /bin/bash
+
+# Dmenu script which pipes every dmenu script into dmenu to run it
+# Julius Beier 08.10.2022
+
+script_path=$HOME/.local/bin/dmenus/
+cd $script_path
+
+script=$(fd "" -t f | dmenu -l 10 -p "Script to run: ")
+if [[ -n "$script" ]]; then
+    notify-send "Dmenu's" "running $script"
+    sh "$script"
+else
+    notify-send "Dmenu's" "cannot run '$script'"
+fi

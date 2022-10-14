@@ -1,0 +1,28 @@
+#! /bin/bash
+
+# Script to convert xopp files to pdf files
+# Julius Beier 05.10.2022
+
+usage() {
+    echo "Usage: xopp2pdf <xopp-file> <pdf-file>"
+    notify-send "xopp2pdf" "Converting Failed"
+    exit
+}
+
+if [[ -n "$1" ]]; then
+    input="$1"
+else
+    usage
+fi
+
+if [[ -n "$2" ]]; then
+    output="$2"
+else
+    usage
+fi
+
+echo "Start Converting"
+notify-send "xopp2pdf" "Start Converting"
+xournalpp -p "$2" "$1"
+echo "Done Converting"
+notify-send "xopp2pdf" "Done Converting"

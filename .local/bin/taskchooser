@@ -1,0 +1,2 @@
+taskmanager=$(printf "btop\ngtop\nhtop\ntop" | dmenu -l 4 -p "Task Manager:")
+[[ "$taskmanager" ]] && st -e "$taskmanager"
