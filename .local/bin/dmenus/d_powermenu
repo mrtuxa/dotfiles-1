@@ -1,0 +1,28 @@
+#! /bin/bash
+
+# Script to Manage the State of the Compute
+# Julius Beier 06.10.2022
+
+state=$(printf "Shutdown\nSuspend\nHibernate\nReboot\nLock"  | dmenu -i -p "Power Menu: " -l 10)
+
+if [[ -n "$state" ]]; then
+    if [[ "$state" = "Shutdown" ]]; then
+        notify-send "Power Menu" "Shuting Down"
+        systemctl halt
+    elif [[ "$state" = "Suspend" ]]; then 
+        notify-send "Power Menu" "Suspending"
+        systemctl suspend
+    elif [[ "$state" = "Hibernate" ]]; then 
+        notify-send "Power Menu" "Hibernating"
+        systemctl hibernate
+    elif [[ "$state" = "Reboot" ]]; then 
+        notify-send "Power Menu" "Rebooting"
+        systemctl reboot
+    elif [[ "$state" = "Lock" ]]; then 
+        notify-send "Power Menu" "Locking"
+        slock
+    fi
+else
+    notify-send "Power Menu" "cannot run '$state'"
+fi
+

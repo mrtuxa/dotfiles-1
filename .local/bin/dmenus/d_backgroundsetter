@@ -1,0 +1,15 @@
+#! /bin/bash
+
+# Dmenu Wrapper for backgroundsetter
+# Julius Beier 10.10.2022
+
+cd $STUFF/backgrounds/
+res=$(fd -t d "" . | dmenu -i -p "Resolution: " -l 10)
+
+if [[ -n "$res" ]]; then
+    backgroundsetter $res
+else
+    notify-send "backgroundsetter" "No input given"
+fi
+
+

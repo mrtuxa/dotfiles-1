@@ -1,0 +1,15 @@
+#! /bin/bash
+
+# Script to run predefined Screen Setup Scripts
+# Julius Beier 06.10.2022
+
+cd $HOME/.local/bin/screenlayouts
+script=$(fd -t f "" . | dmenu -i -p "Screen Script: " -l 10)
+
+if [[ -n "$script" ]]; then
+    notify-send "scriptsetter" "running $script"
+    sh "$script"
+else
+    notify-send "scriptsetter" "cannot run '$script'"
+fi
+

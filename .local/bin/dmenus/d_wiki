@@ -1,0 +1,7 @@
+#! /bin/bash
+
+# Script to open a offline Arch Wiki page
+# Julius Beier 14.10.2022
+
+cd /usr/share/doc/arch-wiki/html/en/
+qutebrowser $(fd -t f "" . | dmenu -p "Wiki Page: " -l 10)
