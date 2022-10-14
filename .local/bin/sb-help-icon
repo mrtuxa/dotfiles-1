@@ -1,0 +1,6 @@
+#!/bin/sh
+
+case $BLOCK_BUTTON in
+	1) sys-tablet ;;
+	6) "$TERMINAL" -e "$EDITOR" "$0" ;;
+esac; echo "ﲉ"

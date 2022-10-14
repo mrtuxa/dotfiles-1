@@ -1,0 +1,8 @@
+#!/bin/sh
+
+case $BLOCK_BUTTON in
+	1) notify-send "Memory hogs" "$(ps axch -o cmd:15,%mem --sort=-%mem | head)" ;;
+	6) "$TERMINAL" -e "$EDITOR" "$0" ;;
+esac
+
+free --mebi | sed -n '2{p;q}' | awk '{printf (" %2.1fG/%2.1fG\n", ( $3 / 1024), ($2 / 1024))}'
