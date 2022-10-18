@@ -10,9 +10,6 @@ git-subm-init:
 git-subm-update-local:
 	git submodule update --recursive
 
-giter-get-repos:
-	lua ${HOME}/.gits/personal/4583a041bd77656cc86d4f7d13b62a62/giter.lua a
-	lua ${HOME}/.gits/personal/4583a041bd77656cc86d4f7d13b62a62/giter.lua
 #################################################################################################
 # GIT STUFF
 #################################################################################################
@@ -30,21 +27,17 @@ install-yays:
 	yay --sync --needed --norebuild --noredownload --nocleanmenu --nodiffmenu --noremovemake - < $(PKGS)/yays
 
 install-pacmans:
-	echo "Install "
 	sudo pacman -S --noconfirm --needed - < ${PKGS}/pacmans 
 
 install-pythons:
-	echo "Installing Python packages"
 	pip install -r ${PKGS}/pythons
-	echo "Done installing Python packages"
 
 backup-pkgs:
-	echo "Started Package Backup"
 	pacman -Qnq > ${PKGS}/pacmans
 	pacman -Qqem > ${PKGS}/yays
 	pip freeze > ${PKGS}/pythons
 	git commit .pkgs/* -m "updated packages"
-	echo "Package Backup done"
+
 #################################################################################################
 # PACKAGE STUFF
 #################################################################################################
@@ -52,14 +45,13 @@ backup-pkgs:
 #################################################################################################
 # SYSTEM STUFF
 #################################################################################################
-# TLP
+
 setup-tlp:
 	sudo cp ${HOME}/.config/system/tlp.conf /etc/
 
 backup-tlp:
 	sudo cp /etc/tlp.conf ${HOME}/.config/system/
 
-# SYSTEMD
 setup-sysd-slock:
 	sudo cp ${HOME}/.config/system/slock-hibernate@.service ${HOME}/.config/system/slock-suspend@.service /etc/systemd/system/
 	sudo systemctl enable slock-suspend@$USER
