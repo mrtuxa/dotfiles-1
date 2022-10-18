@@ -61,3 +61,6 @@
 [submodule ".repos/personal/suckless/xmenu"]
 	path = .repos/personal/suckless/xmenu
 	url = https://github.com/Jxstxs/xmenu.git
+[submodule ".repos/personal/other/system-configs"]
+	path = .repos/personal/other/system-configs
+	url = https://github.com/Jxstxs/system-configs.git
