@@ -2,7 +2,6 @@ a52dec
 aalib
 acl
 acpi
-acpi_call
 acpid
 adobe-source-code-pro-fonts
 adwaita-icon-theme
@@ -71,6 +70,7 @@ dblatex
 dbus
 dbus-python
 dconf
+debugedit
 desktop-file-utils
 device-mapper
 dfu-programmer
@@ -442,7 +442,6 @@ libyuv
 libzip
 licenses
 lilv
-linux
 linux-api-headers
 linux-firmware
 linux-firmware-bnx2x
@@ -451,6 +450,7 @@ linux-firmware-mellanox
 linux-firmware-nfp
 linux-firmware-qlogic
 linux-firmware-whence
+linux-lts
 llvm-libs
 lm_sensors
 lua
@@ -577,9 +577,11 @@ python-attrs
 python-autocommand
 python-cairo
 python-certifi
+python-cffi
 python-chardet
 python-click
 python-colorama
+python-cryptography
 python-distro
 python-docopt
 python-dotty-dict
@@ -609,8 +611,10 @@ python-ordered-set
 python-packaging
 python-pillow
 python-pip
+python-ply
 python-psutil
 python-pycountry
+python-pycparser
 python-pycryptodome
 python-pydantic
 python-pygments
@@ -634,6 +638,7 @@ python-typing_extensions
 python-urllib3
 python-validate-pyproject
 python-websocket-client
+python-wheel
 python-xlib
 python-yaml
 python-zipp
