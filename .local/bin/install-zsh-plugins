@@ -1,0 +1,9 @@
+#! /bin/bash
+
+highlight_path=${HOME}/.repos/other/ohmyzsh/plugins/zsh-syntax-highlighting
+autocomplete_path=${HOME}/.repos/other/ohmyzsh/plugins/zsh-autocomplete
+autosuggestion_path=${HOME}/.repos/other/ohmyzsh/plugins/zsh-autosuggestions
+
+[[ ! -d $highlight_path ]] && git clone https://github.com/zsh-users/zsh-syntax-highlighting $highlight_path
+[[ ! -d $autocomplete_path ]] && git clone https://github.com/marlonrichert/zsh-autocomplete.git $autocomplete_path
+[[ ! -d $autosuggestion_path ]] && git clone https://github.com/zsh-users/zsh-autosuggestions.git $autosuggestion_path
