@@ -42,12 +42,9 @@ backup-pkgs:
 #################################################################################################
 # SYSTEM STUFF
 #################################################################################################
-
 setup-tlp:
-	sudo cp ${HOME}/.config/system/tlp.conf /etc/
-
-backup-tlp:
-	sudo cp /etc/tlp.conf ${HOME}/.config/system/
+	sudo mv /etc/tlp.conf /etc/tlp.conf.backpup
+	sudo ln -sf /home/julius/.repos/personal/other/system-configs/tlp.conf /etc/tlp.conf
 
 setup-sysd-slock:
 	sudo cp ${HOME}/.config/system/slock-hibernate@.service ${HOME}/.config/system/slock-suspend@.service /etc/systemd/system/
