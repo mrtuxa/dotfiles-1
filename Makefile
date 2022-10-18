@@ -18,7 +18,7 @@ install-yay:
 	cd ${HOME}/.gits/other/yay/ && makepkg -si
 
 install-neovim:
-	cd ${HOME}/.gits/other/neovim && make CMAKE_BUILD_TYPE=RelWithDebInfo && sudo make install
+	cd ${HOME}/.repos/other/neovim && make CMAKE_BUILD_TYPE=RelWithDebInfo && sudo make install clean
 
 install-yays:
 	yay --sync --needed --norebuild --noredownload --nocleanmenu --nodiffmenu --noremovemake - < $(HOME)/.pkgs/yays
