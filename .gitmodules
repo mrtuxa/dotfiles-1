@@ -64,3 +64,6 @@
 [submodule ".repos/personal/other/system-configs"]
 	path = .repos/personal/other/system-configs
 	url = https://github.com/Jxstxs/system-configs.git
+[submodule "/home/julius/.stuff/.password-store"]
+	path = /home/julius/.stuff/.password-store
+	url = https://github.com/Jxstxs/passwdstore.git
