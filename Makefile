@@ -53,6 +53,9 @@ setup-sysd-slock:
 	sudo ln -sf /home/julius/.repos/personal/other/system-configs/slock-suspend@.service /etc/systemd/system/slock-suspend@.service
 	sudo systemctl enable slock-suspend@${USER}
 
+setup-hibernation:
+	chmod +x ${HOME}/.repos/other/hibernator/hibernator
+	sudo ${HOME}/.repos/other/hibernator/hibernator 8G # for 8G Swap
 #################################################################################################
 # SYSTEM STUFF
 #################################################################################################
