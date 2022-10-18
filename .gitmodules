@@ -52,3 +52,12 @@
 [submodule ".repos/personal/other/noice-startpage"]
 	path = .repos/personal/other/noice-startpage
 	url = https://github.com/Jxstxs/noice-startpage.git
+[submodule ".repos/personal/suckless/slock"]
+	path = .repos/personal/suckless/slock
+	url = https://github.com/Jxstxs/slock-flexipatch.git
+[submodule ".repos/personal/suckless/sxiv"]
+	path = .repos/personal/suckless/sxiv
+	url = https://github.com/Jxstxs/sxiv-flexipatch.git
+[submodule ".repos/personal/suckless/xmenu"]
+	path = .repos/personal/suckless/xmenu
+	url = https://github.com/Jxstxs/xmenu.git
