@@ -4,3 +4,42 @@
 [submodule ".config/sxhkd"]
 	path = .config/sxhkd
 	url = https://github.com/Jxstxs/sxhkd-config.git
+[submodule ".repos/other/neovim"]
+	path = .repos/other/neovim
+	url = https://github.com/neovim/neovim
+[submodule ".repos/other/yay"]
+	path = .repos/other/yay
+	url = https://aur.archlinux.org/yay
+[submodule ".config/tmux"]
+	path = .config/tmux
+	url = https://github.com/Jxstxs/tmux-config.git
+[submodule ".repos/personal/suckless/dwm"]
+	path = .repos/personal/suckless/dwm
+	url = https://github.com/Jxstxs/dwm-flexipatch.git
+[submodule ".repos/personal/suckless/dmenu"]
+	path = .repos/personal/suckless/dmenu
+	url = https://github.com/Jxstxs/dmenu-flexipatch.git
+[submodule ".repos/personal/suckless/st"]
+	path = .repos/personal/suckless/st
+	url = https://github.com/Jxstxs/st-flexipatch.git
+[submodule ".repos/personal/suckless/dwmblocks"]
+	path = .repos/personal/suckless/dwmblocks
+	url = https://github.com/Jxstxs/dwmblocks-async.git
+[submodule ".config/zsh"]
+	path = .config/zsh
+	url = https://github.com/Jxstxs/zsh-config.git
+[submodule ".repos/other/ohmyzsh"]
+	path = .repos/other/ohmyzsh
+	url = https://github.com/ohmyzsh/ohmyzsh.git
+[submodule ".config/nvim"]
+	path = .config/nvim
+	url = https://github.com/Jxstxs/nvimconf.git
+[submodule ".config/ranger"]
+	path = .config/ranger
+	url = https://github.com/Jxstxs/ranger-config.git
+[submodule ".repos/other/hibernator"]
+	path = .repos/other/hibernator
+	url = https://github.com/Chrysostomus/hibernator.git
+[submodule ".config/lazygit"]
+	path = .config/lazygit
+	url = https://github.com/Jxstxs/lazygit-config.git
