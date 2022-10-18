@@ -4,6 +4,13 @@ setxkbmap -option "compose:caps"
 # xmodmap -e "keycode 48 = Return"
 # xmodmap -e "keycode 47 = BackSpace"
 
+export STUFF=$HOME/.stuff
+export CFGS=$HOME/.config
+export PKGS=$HOME/.pkgs
+
+# Change the Default Pass Directory
+export PASSWORD_STORE_DIR=$HOME/.stuff/.password-store
+
 # xrdb -merge ~/.dotf/configs/x11/.Xresources
 
 if [[ "$HOSTNAME" = "archlinux-deskt" ]]; then
