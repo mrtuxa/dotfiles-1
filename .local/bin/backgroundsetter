@@ -3,7 +3,7 @@
 # Script to set the Background with a specific Resolution (maybe also Xresources)
 # Julius Beier 10.10.2022
 
-cd $STUFF/backgrounds/
+cd $HOME/.stuff/backgrounds/
 if [[ -n "$1" ]]; then
     if [[ -d "$1" ]]; then
         background=$(fd "" $1 | shuf -n 1)

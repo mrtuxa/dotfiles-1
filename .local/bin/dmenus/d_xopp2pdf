@@ -3,7 +3,7 @@
 # Dmenu wrapper for xopp2pdf
 # Julius Beier 05.10.2022
 
-cd $HOME/.gits/personal/other/schule/
+cd $HOME/.repos/personal/other/schule/
 input=$(fd -e xopp -t f -a "" . | dmenu -p "Input File: " -l 10)
 output_dir=$HOME/.stuff/share/
 

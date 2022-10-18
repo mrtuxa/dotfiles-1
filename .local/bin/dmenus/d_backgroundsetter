@@ -3,7 +3,7 @@
 # Dmenu Wrapper for backgroundsetter
 # Julius Beier 10.10.2022
 
-cd $STUFF/backgrounds/
+cd $HOME/.stuff/backgrounds/
 res=$(fd -t d "" . | dmenu -p "Resolution: " -l 10)
 
 if [[ -n "$res" ]]; then
