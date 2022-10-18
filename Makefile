@@ -3,9 +3,6 @@
 #################################################################################################
 git-subm-init:
 	git submodule update --init --remote --merge --recursive
-	git clone https://github.com/zsh-users/zsh-syntax-highlighting ${HOME}/.repos/other/ohmyzsh/plugins/zsh-syntax-highlighting
-	git clone https://github.com/marlonrichert/zsh-autocomplete.git ${HOME}/.repos/other/ohmyzsh/plugins/zsh-autocomplete
-	git clone https://github.com/zsh-users/zsh-autosuggestions.git  ${HOME}/.repos/other/ohmyzsh/plugins/zsh-autosuggestions
 
 git-subm-update-local:
 	git submodule update --recursive
@@ -59,6 +56,17 @@ setup-sysd-slock:
 
 #################################################################################################
 # SYSTEM STUFF
+#################################################################################################
+
+#################################################################################################
+# ZSH STUFF
+#################################################################################################
+setup-zsh:
+	ln -sf ${HOME}/.config/zsh/.zshrc ${HOME}/.zshrc
+	sh ${HOME}/.local/bin/install-zsh-plugins
+
+#################################################################################################
+# ZSH STUFF
 #################################################################################################
 
 #################################################################################################
