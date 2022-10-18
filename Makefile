@@ -65,25 +65,25 @@ setup-sysd-slock:
 # SUCKLESS STUFF
 #################################################################################################
 setup-dwm:
-	cd ${HOME}/.gits/personal/moohs/dwm-flexipatch && sudo make install clean
+	cd ${HOME}/.repos/personal/suckless/dwm && sudo make install clean
 
 setup-dmenu:
-	# cd ${HOME}/.gits/personal/moohs/dmenu-flexipatch && sudo make install clean # TODO: fix config.def.h
+	cd ${HOME}/.repos/personal/suckless/dmenu && sudo make install clean
 
 setup-dwmblocks:
-	cd ${HOME}/.gits/personal/moohs/dwmblocks-async && sudo make install clean
+	cd ${HOME}/.repos/personal/suckless/dwmblocks && sudo make install clean
 
 setup-slock:
-	cd ${HOME}/.gits/personal/moohs/slock-flexipatch && sudo make install clean
+	cd ${HOME}/.repos/personal/suckless/slock && sudo make install clean
 
 setup-st:
-	cd ${HOME}/.gits/personal/moohs/st-flexipatch && sudo make install clean
+	cd ${HOME}/.repos/personal/suckless/st && sudo make install clean
 
 setup-sxiv:
-	cd ${HOME}/.gits/personal/moohs/sxiv-flexipatch && sudo make install clean
+	cd ${HOME}/.repos/personal/suckless/sxiv && sudo make install clean
 
 setup-xmenu:
-	cd ${HOME}/.gits/personal/moohs/xmenu && sudo make install clean
+	cd ${HOME}/.repos/personal/suckless/xmenu && sudo make install clean
 
 setup-suckless: setup-dwm setup-dwmblocks setup-st setup-dmenu setup-slock setup-sxiv setup-xmenu
 #################################################################################################
