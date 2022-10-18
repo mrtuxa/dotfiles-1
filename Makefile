@@ -103,4 +103,4 @@ setup-suckless: setup-dwm setup-dwmblocks setup-st setup-dmenu setup-slock setup
 #################################################################################################
 # BOOTSTRAP
 #################################################################################################
-bootstrap: git-subm-init install-pacmans install-pythons install-neovim install-yay install-yays giter-get-repos setup-tlp setup-suckless
+bootstrap: git-subm-init install-pacmans install-pythons install-neovim install-yay install-yays setup-zsh setup-hibernation setup-suckless setup-tlp setup-sysd-slock
