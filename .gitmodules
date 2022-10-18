@@ -43,3 +43,6 @@
 [submodule ".config/lazygit"]
 	path = .config/lazygit
 	url = https://github.com/Jxstxs/lazygit-config.git
+[submodule ".config/dunst"]
+	path = .config/dunst
+	url = https://github.com/Jxstxs/dunst-config.git
