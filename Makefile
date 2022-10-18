@@ -24,18 +24,18 @@ install-neovim:
 	cd ${HOME}/.gits/other/neovim && make CMAKE_BUILD_TYPE=RelWithDebInfo && sudo make install
 
 install-yays:
-	yay --sync --needed --norebuild --noredownload --nocleanmenu --nodiffmenu --noremovemake - < $(PKGS)/yays
+	yay --sync --needed --norebuild --noredownload --nocleanmenu --nodiffmenu --noremovemake - < $(HOME)/.pkgs/yays
 
 install-pacmans:
-	sudo pacman -S --noconfirm --needed - < ${PKGS}/pacmans 
+	sudo pacman -S --noconfirm --needed - < ${HOME}/.pkgs/pacmans 
 
 install-pythons:
-	pip install -r ${PKGS}/pythons
+	pip install -r ${HOME}/.pkgs/pythons
 
 backup-pkgs:
-	pacman -Qnq > ${PKGS}/pacmans
-	pacman -Qqem > ${PKGS}/yays
-	pip freeze > ${PKGS}/pythons
+	pacman -Qnq > ${HOME}/.pkgs/pacmans
+	pacman -Qqem > ${HOME}/.pkgs/yays
+	pip freeze > ${HOME}/.pkgs/pythons
 	git commit .pkgs/* -m "updated packages"
 
 #################################################################################################
