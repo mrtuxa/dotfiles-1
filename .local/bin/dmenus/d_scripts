@@ -4,7 +4,7 @@
 # Julius Beier 09.10.2022
 
 cd $HOME/.local/bin
-script=$(fd --exact-depth 1 -t f "" . | dmenu -i -p "Script: " -l 10)
+script=$(fd --exact-depth 1 -t f "" . | dmenu -p "Script: " -l 10)
 
 if [[ -n "$script" ]]; then
     notify-send "sriptrunner" "running $script"

@@ -3,7 +3,7 @@
 # Script to Manage the State of the Compute
 # Julius Beier 06.10.2022
 
-state=$(printf "Shutdown\nSuspend\nHibernate\nReboot\nLock"  | dmenu -i -p "Power Menu: " -l 10)
+state=$(printf "Shutdown\nSuspend\nHibernate\nReboot\nLock"  | dmenu -p "Power Menu: " -l 10)
 
 if [[ -n "$state" ]]; then
     if [[ "$state" = "Shutdown" ]]; then
