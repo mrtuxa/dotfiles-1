@@ -46,3 +46,9 @@
 [submodule ".config/dunst"]
 	path = .config/dunst
 	url = https://github.com/Jxstxs/dunst-config.git
+[submodule ".config/qutebrowser"]
+	path = .config/qutebrowser
+	url = https://github.com/Jxstxs/qutebrowser-config.git
+[submodule ".repos/personal/other/noice-startpage"]
+	path = .repos/personal/other/noice-startpage
+	url = https://github.com/Jxstxs/noice-startpage.git
