@@ -47,7 +47,7 @@ setup-tlp:
 	sudo ln -sf /home/julius/.repos/personal/other/system-configs/tlp.conf /etc/tlp.conf
 
 setup-sysd-slock:
-	sudo ln -sf /home/julius/.repos/personal/other/system-configs/xorg-slock-setting.conf /etc/conf.d/xorg-slock-settings.conf
+	sudo ln -sf /home/julius/.repos/personal/other/system-configs/xorg-slock-setting.conf /etc/X11/xorg.conf.d/xorg-slock-setting.conf
 	sudo ln -sf /home/julius/.repos/personal/other/system-configs/slock-hibernate@.service /etc/systemd/system/slock-hibernate@.service
 	sudo systemctl enable slock-hibernate@${USER}
 	sudo ln -sf /home/julius/.repos/personal/other/system-configs/slock-suspend@.service /etc/systemd/system/slock-suspend@.service
