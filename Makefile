@@ -15,7 +15,7 @@ git-subm-update-local:
 # PACKAGE STUFF
 #################################################################################################
 install-yay:
-	cd ${HOME}/.gits/other/yay/ && makepkg -si
+	cd ${HOME}/.repos/other/yay/ && makepkg -si
 
 install-neovim:
 	cd ${HOME}/.repos/other/neovim && make CMAKE_BUILD_TYPE=RelWithDebInfo && sudo make install clean
