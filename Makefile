@@ -56,6 +56,7 @@ setup-sysd-slock:
 setup-hibernation:
 	chmod +x ${HOME}/.repos/other/hibernator/hibernator
 	sudo ${HOME}/.repos/other/hibernator/hibernator 8G # for 8G Swap
+	sudo ln -sf /home/julius/.repos/personal/other/system-configs/99-lowbat.rules /etc/udev/rules.d/99-lowbat.rules
 #################################################################################################
 # SYSTEM STUFF
 #################################################################################################
