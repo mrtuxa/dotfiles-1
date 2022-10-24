@@ -6,7 +6,6 @@
 .gnome/
 .gnupg/
 .local/
-.repos/
 .lyxauth
 .npm/
 .pki/
