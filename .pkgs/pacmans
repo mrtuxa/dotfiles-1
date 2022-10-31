@@ -264,6 +264,7 @@ libavif
 libavtp
 libayatana-appindicator
 libayatana-indicator
+libb2
 libbluray
 libbpf
 libbs2b
@@ -526,8 +527,6 @@ nanomsg
 ncdu
 ncurses
 neon
-neovide
-neovim
 netctl
 nettle
 network-manager-applet
@@ -705,6 +704,10 @@ qt5-wayland
 qt5-webchannel
 qt5-webengine
 qt5-x11extras
+qt6-base
+qt6-svg
+qt6-translations
+qt6ct
 quazip-qt5
 qutebrowser
 ranger
@@ -717,6 +720,7 @@ redland
 rest
 rhash
 ripgrep
+rnote
 rtmpdump
 rubberband
 ruby
@@ -852,6 +856,7 @@ vid.stab
 vim
 vim-runtime
 vmaf
+vulkan-headers
 vulkan-icd-loader
 vulkan-radeon
 wavpack
@@ -873,6 +878,7 @@ x265
 xapp
 xcb-proto
 xcb-util
+xcb-util-cursor
 xcb-util-image
 xcb-util-keysyms
 xcb-util-renderutil
