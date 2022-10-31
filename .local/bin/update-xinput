@@ -1,6 +1,6 @@
 #! /bin/bash
 
-xinput --map-to-output "Wacom Pen and multitouch sensor Finger" $TOUCH_SCREEN
-xinput --map-to-output "Wacom Pen and multitouch sensor Pen" $TOUCH_SCREEN 
-xinput --map-to-output "Wacom Pen and multitouch sensor Pen Pen" $TOUCH_SCREEN 
-xinput --map-to-output "Wacom Pen and multitouch sensor Pen Eraser" $TOUCH_SCREEN 
+xinput --map-to-output 13 "eDP"
+# xinput --map-to-output "Wacom Pen and multitouch sensor Pen" "eDP"
+xinput --map-to-output 18 "eDP"
+xinput --map-to-output 19 "eDP"
