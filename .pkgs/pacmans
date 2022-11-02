@@ -87,6 +87,7 @@ dhcpcd
 dialog
 diffutils
 discord
+dkms
 dmidecode
 dnssec-anchors
 docbook-xml
@@ -94,11 +95,15 @@ docbook-xsl
 docker
 dosfstools
 double-conversion
+doxygen
 duktape
 dunst
 e2fsprogs
 efibootmgr
 efivar
+electron
+element-desktop
+element-web
 elfutils
 ell
 enchant
@@ -133,11 +138,13 @@ gcab
 gcc
 gcc-libs
 gcr
+gcr-4
 gd
 gdb
 gdb-common
 gdbm
 gdk-pixbuf2
+gendesk
 gettext
 giflib
 girara
@@ -154,6 +161,7 @@ glslang
 glu
 gmp
 gnome-bluetooth
+gnome-keyring
 gnome-menus
 gnome-pie
 gnu-free-fonts
@@ -270,6 +278,7 @@ libbpf
 libbs2b
 libbsd
 libcaca
+libcamera
 libcanberra
 libcap
 libcap-ng
@@ -341,6 +350,7 @@ liblqr
 liblrdf
 libltc
 libluv
+liblzf
 libmanette
 libmd
 libmfx
@@ -424,6 +434,7 @@ libtiff
 libtirpc
 libtommath
 libtool
+libtpms
 libunistring
 libunwind
 libusb
@@ -496,6 +507,7 @@ linux-firmware-nfp
 linux-firmware-qlogic
 linux-firmware-whence
 linux-lts
+linux-lts-headers
 llvm-libs
 lm_sensors
 lpsolve
@@ -560,6 +572,7 @@ orc
 p11-kit
 pacman
 pacman-mirrorlist
+pahole
 pam
 pambase
 pamixer
@@ -674,6 +687,7 @@ python-pyrsistent
 python-pysocks
 python-pyusb
 python-pywal
+python-qtpy
 python-requests
 python-setproctitle
 python-setuptools
@@ -721,6 +735,7 @@ rest
 rhash
 ripgrep
 rnote
+rsync
 rtmpdump
 rubberband
 ruby
@@ -855,6 +870,9 @@ valgrind
 vid.stab
 vim
 vim-runtime
+virtualbox
+virtualbox-guest-iso
+virtualbox-host-dkms
 vmaf
 vulkan-headers
 vulkan-icd-loader
@@ -912,9 +930,11 @@ xorg-xsetroot
 xorgproto
 xournalpp
 xvidcore
+xxhash
 xz
 yajl
 yaml-cpp
+yarn
 yt-dlp
 zathura
 zathura-pdf-poppler
