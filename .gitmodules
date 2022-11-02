@@ -67,3 +67,6 @@
 [submodule "/home/julius/.stuff/.password-store"]
 	path = /home/julius/.stuff/.password-store
 	url = https://github.com/Jxstxs/passwdstore.git
+[submodule "/home/julius/.repos/personal/tools/autoRotate"]
+	path = /home/julius/.repos/personal/tools/autoRotate
+	url = https://github.com/Jxstxs/autoRotate.git
