@@ -107,6 +107,12 @@ setup-suckless: setup-dwm setup-dwmblocks setup-st setup-dmenu setup-slock setup
 setup-autorotate:
 	cd ${HOME}/.repos/personal/tools/autoRotate && sudo make install clean
 
+setup-directories:
+	mkdir -p ${HOME}/.stuff/share
+	mkdir -p ${HOME}/.stuff/trash
+	mkdir -p ${HOME}/.stuff/mount
+	mkdir -p ${HOME}/.stuff/screenshots
+
 #################################################################################################
 # OTHER STUFF
 #################################################################################################
