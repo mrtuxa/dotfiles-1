@@ -1,0 +1,15 @@
+#! /bin/bash
+
+# Dmenu script to run all scripts from .local/bin
+# Julius Beier 09.10.2022
+
+cd $HOME/.stuff/share
+input=$(fd -e pdf -t f -a "" . | dmenu -p "PDF: " -l 10)
+
+if [[ -n "$input" ]]; then
+    notify-send "View Pdf" "Opening $input"
+    zathura $input
+else
+    notify-send "View Pdf" "cannot open '$input'"
+fi
+
