@@ -112,6 +112,7 @@ setup-directories:
 	mkdir -p ${HOME}/.stuff/trash
 	mkdir -p ${HOME}/.stuff/mount
 	mkdir -p ${HOME}/.stuff/screenshots
+	mkdir -p ${HOME}/.stuff/important
 
 #################################################################################################
 # OTHER STUFF
