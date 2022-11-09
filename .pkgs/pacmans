@@ -96,6 +96,7 @@ docker
 dosfstools
 double-conversion
 doxygen
+doxygen-docs
 duktape
 dunst
 e2fsprogs
@@ -150,6 +151,7 @@ giflib
 girara
 git
 git-delta
+github-cli
 glew
 glib-networking
 glib2
@@ -206,6 +208,7 @@ gupnp-igd
 gzip
 harfbuzz
 harfbuzz-icu
+hdf5
 hdparm
 hicolor-icon-theme
 hidapi
@@ -261,6 +264,7 @@ less
 lhasa
 libabw
 libadwaita
+libaec
 libappindicator-gtk3
 libarchive
 libass
@@ -400,7 +404,6 @@ libqxp
 libraqm
 libraw
 libraw1394
-libreoffice-still
 librevenge
 librsvg
 libsamplerate
@@ -518,12 +521,14 @@ lv2
 lz4
 lzo
 m4
+mailcap
 make
 man-db
 md4c
 mesa
 meson
 minizip
+minizip-ng
 mjpegtools
 mkinitcpio
 mkinitcpio-busybox
@@ -561,10 +566,12 @@ openal
 opencolorio
 opencore-amr
 openexr
+openimageio
 openjpeg2
 openmpi
 openpmix
 openresolv
+openshadinglanguage
 openssh
 openssl
 opus
@@ -628,7 +635,9 @@ potrace
 ppp
 procps-ng
 psmisc
+pugixml
 pulsemixer
+pybind11
 pystring
 python
 python-appdirs
@@ -934,7 +943,6 @@ xxhash
 xz
 yajl
 yaml-cpp
-yarn
 yt-dlp
 zathura
 zathura-pdf-poppler
