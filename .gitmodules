@@ -64,9 +64,9 @@
 [submodule ".repos/personal/other/system-configs"]
 	path = .repos/personal/other/system-configs
 	url = https://github.com/Jxstxs/system-configs.git
-[submodule "/home/julius/.stuff/.password-store"]
-	path = /home/julius/.stuff/.password-store
-	url = https://github.com/Jxstxs/passwdstore.git
-[submodule "/home/julius/.repos/personal/tools/autoRotate"]
-	path = /home/julius/.repos/personal/tools/autoRotate
+[submodule ".repos/personal/tools/autoRotate"]
+	path = .repos/personal/tools/autoRotate
 	url = https://github.com/Jxstxs/autoRotate.git
+[submodule ".stuff/.password-store"]
+	path = .stuff/.password-store
+	url = https://github.com/Jxstxs/passwdstore.git
