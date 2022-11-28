@@ -1,0 +1,18 @@
+
+get the arguments
+parse them
+
+setup the databse connection
+
+run given function
+
+INIT:
+    does nothing (used for database creation)
+
+ADD:
+    check for a title
+        if no given exit
+    get current time
+    parse the given tags
+    parse the given references
+
