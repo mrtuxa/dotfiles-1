@@ -4,11 +4,13 @@ battop
 camunda-modeler
 chroma
 criterion
+flutter
 google-chrome
 lemmy-help
 minecraft-launcher
 mkinitcpio-firmware
 morgen-bin
+onlyoffice-bin
 silo-gmail
 silo-wikipedia
 silos
@@ -16,5 +18,6 @@ sysz
 tlpui
 ttf-meslo-nerd-font-powerlevel10k
 update-grub
+whatsie-git
 xsudo-git
 yay
