@@ -21,3 +21,4 @@
 	required = true
 [safe]
 	directory = /home/julius
+	directory = /opt/flutter
